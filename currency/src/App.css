@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family:"playfair",sans-serif;
+  box-sizing: border-box;
+}
+
+.currencymain{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.904);
+}
+.data{
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.box{
+  width: 100%;
+  height: 200px;
+  background-image: url(assets/i.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1{
+  border-top: 1px dotted black;
+  border-bottom: 1px dotted black;
+  padding: 5px;
+  text-transform: uppercase;
+  color: rgb(135, 168, 220);
+}
+.inputd{
+  padding: 5px;
+  border: 2px;
+}
+.inputd label{
+  display: block;
+  font-weight: 600;
+  padding: 5px;
+}
+.inputd input{
+  width: 100%;
+  padding: 5px;
+  font-weight: 600;
+  border-radius: 5px;
+  outline: none;
+}
+.input :focus,select:focus{
+  border-color:rgb(135, 168, 220);
+}
+.inputd select{
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  font-weight: 600; 
+}
+.output{
+  padding: 10px;
+  margin-top: 10px;
+  color: rgb(135, 168, 220);
+  border: 1px dotted ;
+}
